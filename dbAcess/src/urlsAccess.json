@@ -1,0 +1,23 @@
+[
+    {
+        "URLPATH": "/",
+        "TITLE": "Home",
+        "DESCRIPTION": "Home Page"
+        },
+        {
+            "URLPATH": "/about",
+            "TITLE": "About",
+            "DESCRIPTION": "About Page"
+        },
+        {
+            "URLPATH": "/contact",
+            "TITLE": "Contact",
+            "DESCRIPTION": "Contact Page"
+        },
+        {
+            "URLPATH": "/blog",
+            "TITLE": "Blog",
+            "DESCRIPTION": "Blog Page"
+        }
+    
+]

@@ -1,0 +1,19 @@
+version: '3.0'
+
+services:
+  web:
+    container_name: example-web
+    restart: always
+    build: .
+    ports:
+      - "5000:4000"
+
+    links:
+      - mongo
+    
+  mongo:
+    container_name: example-mongo
+    restart: always
+    image: mongo
+    ports:
+      - "27018:27017"

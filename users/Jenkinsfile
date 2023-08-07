@@ -1,0 +1,30 @@
+// Configuration settings
+//  - Jenkinsfile
+//  - Jenkinsfile.properties
+//  - Jenkinsfile.yaml
+//  - Jenkinsfile.yml
+
+pipeline {
+    agent any
+
+    environment {
+        SONAR_SCANNER = tool "sonarQubeScanner"
+    }
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+            }
+        }
+    }
+}

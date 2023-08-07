@@ -1,0 +1,1 @@
+docker logs -f 958b6b983491
